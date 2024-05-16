@@ -15,15 +15,21 @@
 
    model=tts-1,调用edge-tts;
    model为其他任意值,则调用say command;
-5. voice list
-查看say可用voice: http://localhost:8083/siri（say为macos命令行指令，需要在macos系统运行才支持）
-查看edge-tts可用voice: http://localhost:8083/edge
+4. voice list
 
-say command to api:
-python app.py
+   查看say voice list: http://localhost:8083/siri
+   
+   （say为macos命令行指令，需要在macos系统运行才支持）
+   
+   
+   查看edge-tts voice list: http://localhost:8083/edge
 
-edge-tts to api:
-python app_edge.py
+
+         say command to api:
+         python app.py
+         
+         edge-tts to api:
+         python app_edge.py
 
 ### Thanks：
 https://github.com/rany2/edge-tts
