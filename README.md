@@ -27,6 +27,7 @@ python app_edge.py
 
 ### Thanks：
 https://github.com/rany2/edge-tts
+
 https://maithegeek.medium.com/having-fun-in-macos-with-say-command-d4a0d3319668
 
 #### 该项目仅个人学习使用。
