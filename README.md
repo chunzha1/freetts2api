@@ -12,9 +12,10 @@
   包含了edge-tts以及macos say，
 3. 调用方法如下：
   curl -X POST -H "Authorization: Bearer your_api_key_here" -H "Content-Type: application/json" -d '{"input": "The quick brown fox jumped over the lazy dog.", "voice": "Cellos", "model": "tts-1-hd"}' http://localhost:8083/v1/audio/speech --output speech.mp3
-    model=tts-1,调用edge-tts;
-    model为其他任意值,则调用say command;
-4. voice list
+
+   model=tts-1,调用edge-tts;
+   model为其他任意值,则调用say command;
+5. voice list
 查看say可用voice: http://localhost:8083/siri（say为macos命令行指令，需要在macos系统运行才支持）
 查看edge-tts可用voice: http://localhost:8083/edge
 
